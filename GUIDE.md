@@ -66,7 +66,6 @@ GE_AUTH_ID=your-auth-id
 1. Go to **Cloud Console > APIs & Credentials > + CREATE CREDENTIALS > OAuth client ID**
 2. Application type: **Web application**
 3. Add **two** Authorized redirect URIs:
-   - `https://vertexaisearch.cloud.google.com/static/oauth/oauth.html`
    - `https://vertexaisearch.cloud.google.com/oauth-redirect`
 4. Save the **Client ID** and **Client Secret**
 
