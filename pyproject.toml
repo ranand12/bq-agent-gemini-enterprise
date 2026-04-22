@@ -1,0 +1,13 @@
+[project]
+name = "bq-agent-ge"
+version = "0.1.0"
+description = "BigQuery Agent for Gemini Enterprise with end-user OAuth credentials"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=1.25.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
